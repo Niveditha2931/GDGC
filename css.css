@@ -1,0 +1,138 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(117, 110, 110);
+    margin:0;
+    padding: 20px 10px 10px 10px;
+}
+
+.products, .cart {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    background-color: #a09a9a;
+    padding: 20px 5px 10px 5px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.product img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.product h3 {
+    margin: 10px 0;
+    color: white;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product p {
+    font-size: 14px;
+    color:black;
+}
+/* Cart Styling */
+.cart {
+    background-color:#a09a9a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+#cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+.h{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.cart-item p {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.cart-item button {
+    background-color:rgb(117, 110, 110);
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.price {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.price h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.price p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: black;
+}
+
+.price span {
+    font-weight: bold;
+    color: #333;
+}
+
+button{
+    background-color:rgb(117, 110, 110);
+    border: none;
+    font-size: 0.8rem;
+    padding: 7px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 5px;  
+}
